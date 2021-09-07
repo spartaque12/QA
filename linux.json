@@ -1,0 +1,20 @@
+1) See where I am          pwd
+2) Create folder mkdir           tutorial_1
+3) Go to the folder            cd tutorial_1 / folder
+4) Create 3 folders            mkdir {one, two, three}
+5) Go to any folder             cd one /
+6) Create 5 files (3 txt, 2 json)               touch 1.txt 2.txt 3.txt 4.json 5.json
+7) Create 3 folders mkdir                  {a, b, c}
+8. List the contents of the folder               ls -la 
+9) + Open any txt file               vim 1.txt
+10) + write something there, any text. press I (insert)
+11) + save and exit. ESC button,: w (write) q (quit), enter
+12) Exit the folder one level above                   cd ..
+13) move any 2 files you created to any other folder.    mv /c/qatest/tutorial_1/one/1.txt 2.txt / c / qatest / tutorial_1 / two /
+14) copy any 2 files you created to any other folder.     cp /c/qatest/tutorial_1/two/1.txt 2.txt / c / qatest / tutorial_1 / one /
+15) Find a file named              find / c / qatest / tutorial_1 / -name 1.txt
+16) view content in real time, grep.          less + F testlongfile.txt
+17) print the first few lines from the text file         head testlongfile.txt
+18) print the last few lines from a text file              tail testlongfile.txt
+19) view the contents of a long file           less testlongfile.txt
+20) print date and time            date
