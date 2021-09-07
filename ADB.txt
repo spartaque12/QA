@@ -1,0 +1,26 @@
+adb devices displays devices connected to pc
+adb install (path to the installation file) install applications
+adb uninstall (app path) uninstall app
+adb push (path to file) transfer a file from pc to device
+adb pull (path to file) transfer file from device to pc
+adb reboot device reboot
+adb reboot-bootloader boot in bootloader mode
+adb connect ip: port connect to device via WIFI
+adb sideload allows you to transfer the Android system installation file
+adb flash (name) allows to flash zip or img
+
+
+fastboot is a console application for PC
+
+fastboot devices List of connected devices in fastboot mode.
+fastboot flash <section> <file> Flash the .img file to the device partition.
+fastboot erase <section> Erase the partition.
+fastboot update <file_name.zip> Firmware from file filename.zip
+fastboot flashall Firmware boot + recovery + system.
+fastboot getvar <variable_name> Show bootloader variables.
+fastboot boot <kernel> [<ramdisk>] Download and load kernel.
+fastboot flash: raw boot <kernel> [<ramdisk>] Create bootimage and flash it.
+fastboot devices Show a list of connected devices.
+fastboot continue Continue with autoload.
+fastboot reboot Restart the device.
+fastboot reboot-bootloader Reboot device to bootloader mode. 
