@@ -9,7 +9,7 @@
 9) + Open any txt file               vim 1.txt
 10) + write something there, any text. press I (insert)
 11) + save and exit. ESC button,: w (write) q (quit), enter
-12) Exit the folder one level above                   cd ..
+12) Exit the folder one level above                   cd ../
 13) move any 2 files you created to any other folder.    mv /c/qatest/tutorial_1/one/1.txt 2.txt / c / qatest / tutorial_1 / two /
 14) copy any 2 files you created to any other folder.     cp /c/qatest/tutorial_1/two/1.txt 2.txt / c / qatest / tutorial_1 / one /
 15) Find a file named              find / c / qatest / tutorial_1 / -name 1.txt
